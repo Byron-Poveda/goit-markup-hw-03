@@ -104,7 +104,7 @@ body {
   text-align: center;
   position: absolute;
   width: 1204px;
-  height: 600px;
+  height: 410px;
   top: 80px;
   left: -4px;
 }
@@ -311,6 +311,7 @@ body {
 }
 .header-briefcase {
   background: rgba(255, 255, 255, 1);
+  border-bottom: #c0b9b92a 1px solid;
   position: absolute;
   width: 1600px;
   height: 80px;
@@ -449,4 +450,11 @@ body {
   height: 252px;
   left: 0px;
   top: 1548px;
+}
+.section:not(.header-briefcase) {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.pointer {
+  cursor: pointer;
 }
