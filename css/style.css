@@ -37,12 +37,12 @@ body {
   color: var(--color-white);
   background-color: var(--color-light-blue);
 }
-.container {
+.hola {
   width: 1200px;
 }
 .web-studio-header {
   position: absolute;
-  left: 100px;
+  left: 15px;
   top: 24px;
   text-align: right;
   font-family: "Raleway";
@@ -65,27 +65,27 @@ body {
 }
 .study {
   position: absolute;
-  left: 300px;
+  left: 253px;
   top: 32px;
 }
 .briefcase {
   position: absolute;
-  left: 380px;
+  left: 352px;
   top: 32px;
 }
 .contact {
   position: absolute;
-  left: 470px;
+  left: 467px;
   top: 32px;
 }
 .gmail {
   position: absolute;
-  left: 900px;
+  left: 878px;
   top: 32px;
 }
 .number {
   position: absolute;
-  left: 1070px;
+  left: 1063px;
   top: 32px;
   display: flex;
   gap: 50px;
@@ -103,15 +103,15 @@ body {
   background: var(--background-blue-dark);
   text-align: center;
   position: absolute;
-  width: 1350px;
+  width: 1204px;
   height: 600px;
-  left: -4px;
   top: 80px;
+  left: -4px;
 }
 .hero-tittle {
   position: absolute;
-  left: 300px;
-  top: 190px;
+  left: 248px;
+  top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -130,55 +130,55 @@ body {
   color: var(--color-white);
   padding: 10px 32px;
   position: absolute;
-  left: 499.5px;
-  top: 370px;
+  left: 466px;
+  top: 360px;
 }
 .atention {
   position: absolute;
   width: 270px;
-  left: 100px;
+  left: 15px;
   top: 775px;
 }
 .puntuality {
   position: absolute;
   width: 270px;
-  left: 400px;
+  left: 315px;
   top: 775px;
 }
 .planification {
   position: absolute;
   width: 270px;
-  left: 700px;
+  left: 615px;
   top: 775px;
 }
 .modern-tecnology {
   position: absolute;
   width: 270px;
-  left: 1000px;
+  left: 915px;
   top: 775px;
 }
 .atention-description {
   position: absolute;
   width: 270px;
-  left: 100px;
+  left: 15px;
   top: 801px;
 }
 .puntuality-description {
   position: absolute;
   width: 270px;
-  left: 400px;
+  left: 315px;
   top: 801px;
 }
 .planification-description {
   position: absolute;
   width: 270px;
-  left: 700px;
+  left: 615px;
   top: 801px;
 }
 .modern-tecnology-description {
   position: absolute;
   width: 270px;
-  left: 1000px;
+  left: 915px;
   top: 801px;
 }
 .section-features-list-tittle {
@@ -193,22 +193,23 @@ body {
 }
 .section-works-tittle {
   position: absolute;
-  left: 450px;
+  width: 371.15px;
+  left: 419.43px;
   top: 991px;
 }
 .programming {
   position: absolute;
-  left: 50px;
+  left: 15px;
   top: 1092.3px;
 }
 .mackup {
   position: absolute;
-  left: 450px;
+  left: 418.42px;
   top: 1092.3px;
 }
 .desing {
   position: absolute;
-  left: 850px;
+  left: 815px;
   top: 1092px;
 }
 .similar-tittle {
@@ -221,7 +222,7 @@ body {
 }
 .section-team-tittle {
   position: absolute;
-  left: 500px;
+  left: 469px;
   top: 1604px;
 }
 .section-team-item-tittle {
@@ -243,27 +244,31 @@ body {
 }
 .andres {
   position: absolute;
-  left: 50px;
+  left: 8px;
   top: 1696px;
 }
-/* falta de aca pa bajo */
 .carla {
   position: absolute;
-  left: 515px;
+  left: 315px;
   top: 1696px;
 }
 .mario {
   position: absolute;
-  left: 822px;
+  left: 622px;
   top: 1696px;
 }
-.panlo {
+.pablo {
   position: absolute;
-  left: 1115px;
+  left: 915px;
   top: 1696px;
 }
 .footer {
   background-color: var(--background-blue-dark);
+  position: absolute;
+  width: 1200px;
+  height: 252px;
+  left: 0px;
+  top: 2158px;
 }
 .web-studio-footer {
   text-align: right;
@@ -272,6 +277,9 @@ body {
   font-size: 26px;
   line-height: 1.192;
   color: var(--color-light-blue);
+  position: absolute;
+  left: 15px;
+  top: 60px;
 }
 .adress {
   line-height: 1.3;
@@ -281,12 +289,36 @@ body {
   font-weight: 400;
   line-height: 1.714;
   font-style: normal;
+  position: absolute;
+  left: 15px;
+  top: 100px;
 }
 .adress-list-item-contact {
   font-weight: 400;
   line-height: 1.714;
   color: var(--color-gray-footer);
   font-style: normal;
+}
+.gmail-footer {
+  position: absolute;
+  left: 15px;
+  top: 148px;
+}
+.number-footer {
+  position: absolute;
+  left: 15px;
+  top: 171px;
+}
+.header-briefcase {
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.section-briefacse {
+  background: #e5e5e5;
 }
 .section-briefcase-list-item-buttons {
   font-family: "Roboto", sans-serif;
@@ -295,12 +327,49 @@ body {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
 }
-.all {
+.button-active {
   color: var(--color-white);
   background-color: var(--color-light-blue);
 }
+.button-all {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 295px;
+  top: 106px;
+}
+.button-web {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 376px;
+  top: 106px;
+}
+.button-aplications {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 512px;
+  top: 106px;
+}
+.button-desing {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 665px;
+  top: 106px;
+}
+.button-marketing {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 776px;
+  top: 106px;
+}
 .section-second-list-item {
+  box-sizing: border-box;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -317,4 +386,67 @@ body {
   font-size: 16px;
   line-height: 1.875;
   color: #757575;
+}
+.item-tecnoduck {
+  position: absolute;
+  left: 15px;
+  top: 194px;
+  background: #ffffff;
+}
+.item-poster {
+  position: absolute;
+  height: 418px;
+  left: 415px;
+  top: 194px;
+  background: #ffffff;
+}
+.item-restaurant {
+  position: absolute;
+  left: 815px;
+  top: 194px;
+  background: #ffffff;
+}
+.item-proyect-prime {
+  position: absolute;
+  left: 15px;
+  top: 628px;
+  background: #ffffff;
+}
+.item-proyect-boxes {
+  position: absolute;
+  left: 415px;
+  top: 628px;
+  background: #ffffff;
+}
+.item-inspiration {
+  position: absolute;
+  left: 815px;
+  top: 628px;
+  background: #ffffff;
+}
+.item-edition {
+  position: absolute;
+  left: 15px;
+  top: 1062px;
+  background: #ffffff;
+}
+.item-proyect-lab {
+  position: absolute;
+  left: 415px;
+  top: 1062px;
+  background: #ffffff;
+}
+.item-business {
+  position: absolute;
+  left: 815px;
+  top: 1062px;
+  background: #ffffff;
+}
+.footer-briefcase {
+  background-color: var(--background-blue-dark);
+  position: absolute;
+  width: 1200px;
+  height: 252px;
+  left: 0px;
+  top: 1548px;
 }
