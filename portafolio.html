@@ -11,12 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <section class="header-briefcase section">
+      <div class="container header-briefcase">
+        <ul class="header-list">
           <a
             href="#"
             target="_blank"
@@ -24,61 +24,61 @@
             class="web-studio-header links"
             >Web Studio</a
           >
-          <nav class="header-nav">
-            <ul class="header-nav-list">
-              <li class="items header-nav-list-item">
-                <a
-                  href="./index.html"
-                  rel="noopener noreferrer"
-                  class="header-nav-list-item-link links study"
-                  >Estudio</a
-                >
-              </li>
-              <li class="items header-nav-list-item">
-                <a
-                  href="./portafolio.html"
-                  rel="noopener noreferrer"
-                  class="header-nav-list-item-link links light-blue briefcase"
-                  >Portafolio</a
-                >
-              </li>
-              <li class="items header-nav-list-item">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="header-nav-list-item-link links contact"
-                  >Contactos</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <ul class="information-section-list">
-            <li class="items information-section-list-item">
+        </ul>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="items header-nav-list-item">
               <a
-                href="mailto:info@devstudio.com"
-                target="_blank"
+                href="./index.html"
                 rel="noopener noreferrer"
-                class="links information-section-list-item-link gmail"
-                >info@devstudio.com</a
+                class="header-nav-list-item-link links study"
+                >Estudio</a
               >
             </li>
-            <li class="items information-section-list-item">
+            <li class="items header-nav-list-item">
               <a
-                href="tel:+525555296000"
+                href="./portafolio.html"
+                rel="noopener noreferrer"
+                class="header-nav-list-item-link links light-blue briefcase"
+                >Portafolio</a
+              >
+            </li>
+            <li class="items header-nav-list-item">
+              <a
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="links information-section-list-item-link number"
-                >+5255 5529 6000</a
+                class="header-nav-list-item-link links contact"
+                >Contactos</a
               >
             </li>
           </ul>
-        </section>
+        </nav>
+        <ul class="information-section-list">
+          <li class="items information-section-list-item">
+            <a
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links information-section-list-item-link gmail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="items information-section-list-item">
+            <a
+              href="tel:+525555296000"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links information-section-list-item-link number"
+              >+5255 5529 6000</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <div class="container">
-        <section class="section-briefcase section">
+        <section class="section-briefcase">
           <h1 hidden class="section-briefcase-tittle">portafolio</h1>
           <ul class="section-briefcase-list">
             <li class="items section-briefcase-list-item">
@@ -90,44 +90,36 @@
               </button>
             </li>
             <li class="items section-briefcase-list-item">
-              <a href="sitios-web.html"
-                ><button
-                  type="button"
-                  class="section-briefcase-list-item-buttons buttons button-web"
-                >
-                  Sitios-web
-                </button>
-              </a>
+              <button
+                type="button"
+                class="section-briefcase-list-item-buttons buttons button-web"
+              >
+                Sitios-web
+              </button>
             </li>
             <li class="items section-briefcase-list-item">
-              <a href="aplicaciones.html">
-                <button
-                  type="button"
-                  class="section-briefcase-list-item-buttons buttons button-aplications"
-                >
-                  Aplicaciones
-                </button>
-              </a>
+              <button
+                type="button"
+                class="section-briefcase-list-item-buttons buttons button-aplications"
+              >
+                Aplicaciones
+              </button>
             </li>
             <li class="items section-briefcase-list-item">
-              <a href="diseño.html">
-                <button
-                  type="button"
-                  class="section-briefcase-list-item-buttons buttons button-desing"
-                >
-                  Diseño
-                </button>
-              </a>
+              <button
+                type="button"
+                class="section-briefcase-list-item-buttons buttons button-desing"
+              >
+                Diseño
+              </button>
             </li>
             <li class="items section-briefcase-list-item">
-              <a href="marketing.html">
-                <button
-                  type="button"
-                  class="section-briefcase-list-item-buttons buttons button-marketing"
-                >
-                  Marketing
-                </button>
-              </a>
+              <button
+                type="button"
+                class="section-briefcase-list-item-buttons buttons button-marketing"
+              >
+                Marketing
+              </button>
             </li>
           </ul>
           <ul class="section-second-list">
@@ -169,7 +161,9 @@
               </h3>
               <p class="section-second-list-item-description">Aplicaciones</p>
             </li>
-            <li class="section-second-list-item items item-proyect-prime pointer">
+            <li
+              class="section-second-list-item items item-proyect-prime pointer"
+            >
               <img
                 src="./images/prime.jpg"
                 width="370"
@@ -180,7 +174,9 @@
               <h3 class="section-second-list-item-tittle">Proyecto Prime</h3>
               <p class="section-second-list-item-description">Marketing</p>
             </li>
-            <li class="section-second-list-item items item-proyect-boxes pointer">
+            <li
+              class="section-second-list-item items item-proyect-boxes pointer"
+            >
               <img
                 src="./images/box.jpg"
                 width="370"
@@ -243,8 +239,8 @@
         </section>
       </div>
     </main>
-    <footer class="footer-briefcase">
-      <div class="container">
+    <div class="container">
+      <footer class="footer">
         <a
           href="#"
           target="_blank"
@@ -284,7 +280,7 @@
             </li>
           </ul>
         </address>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
